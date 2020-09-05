@@ -1,0 +1,1 @@
+小程序安装npm比平时多了一个步骤，微信开发者工具——“构建npm”，会新创建一个miniprogram_npm，我们的node_modules实际上会被视为一个隐藏的文件。

@@ -3,5 +3,9 @@
   "pages": [
     "pages/index/index",
     "pages/welcome/welcome"
-  ]
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#b3d4db"
+  },
+  "sitemapLocation": "sitemap33.json"
 }
