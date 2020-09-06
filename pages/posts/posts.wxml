@@ -1,0 +1,37 @@
+<view>
+  <swiper circular autoplay interval="{{2000}}" indicator-dots="{{true}}">
+    <swiper-item>
+      <image src="/images/iqiyi.png"></image>
+    </swiper-item>
+    <swiper-item>
+      <image src="/images/vr.png"></image>
+    </swiper-item>
+    <swiper-item>
+      <image src="/images/wx.png"></image>
+    </swiper-item>
+  </swiper>
+
+  <block wx:for="{{postList}}" wx:item="item" wx:key="index">
+    <view class="item-wrap">
+      <view class="header-msg">
+        <image class="msg-avatar" src="{{item.avatar}}"></image>
+        <view class="msg-date">
+          <text>{{item.date}}</text>
+        </view>      
+      </view>
+      <view class="header-title">
+        {{item.title}}
+      </view>
+      <view class="main-img">
+        <image src="{{item.imgSrc}}"></image>
+      </view>
+      <view class="main-text">{{item.content}}</view>
+      <view class="bottom-group">
+        <image class="collect-icon" src="/images/icon/chat.png"></image>
+        <text class="collect-count">{{item.collection}}</text>
+        <image class="view-icon" src="/images/icon/view.png"></image>
+        <text class="view-count">{{item.reading}}</text>
+      </view>
+    </view>
+  </block>
+</view>

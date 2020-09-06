@@ -1,7 +1,7 @@
 <!--pages/welcome/welcome.wxml-->
 
 <view class="container">
-  <image class="user-avatar" src="/images/avatar/1.png"></image>
+  <l-avatar size="180" placement="bottom" open-data="{{['userAvatarUrl','userNickName']}}" />
   <text class="motto">你好啊，微信小程序</text>
   <button class="welcome-button">开启小程序之旅</button>
 </view>
