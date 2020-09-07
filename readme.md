@@ -16,3 +16,7 @@ text使用flex居中问题
 ```
 和 `<text>{{test}}</text>`
 https://developers.weixin.qq.com/community/develop/doc/00004ca33a0650c2598a9553d50800
+
+小程序的 template 只实现了模板作用（只支持HTML、CSS——wxml 、wxss），并没有实现模块化的作用
+
+template的文件、样式还要分开引用。。。。。。。

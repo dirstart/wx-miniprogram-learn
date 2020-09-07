@@ -1,0 +1,23 @@
+<template name="postItem">
+  <view class="item-wrap">
+    <view class="header-msg">
+      <image class="msg-avatar" src="{{item.avatar}}"></image>
+      <view class="msg-date">
+        <text>{{item.date}}</text>
+      </view>      
+    </view>
+    <view class="header-title">
+      {{item.title}}
+    </view>
+    <view class="main-img">
+      <image src="{{item.imgSrc}}"></image>
+    </view>
+    <view class="main-text">{{item.content}}</view>
+    <view class="bottom-group">
+      <image class="collect-icon" src="/images/icon/chat.png"></image>
+      <text class="collect-count">{{item.collection}}</text>
+      <image class="view-icon" src="/images/icon/view.png"></image>
+      <text class="view-count">{{item.reading}}</text>
+    </view>
+  </view>
+</template>
