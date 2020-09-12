@@ -3,10 +3,11 @@
   "pages": [
     "pages/index/index",
     "pages/welcome/welcome",
-    "pages/posts/posts"
+    "pages/posts/posts",
+    "pages/posts/postDetail/postDetail"
   ],
   "window": {
-    "navigationBarBackgroundColor": "#b3d4db"
+    "navigationBarBackgroundColor": "#405f80"
   },
   "sitemapLocation": "sitemap33.json"
 }

@@ -1,0 +1,16 @@
+<view class="wrap">
+  <image class="header-img" src="{{postObj.headImgSrc}}"></image>
+  <view class="desc-wrap">
+    <image class="desc-avatar" src="{{postObj.avatar}}"></image>
+    <text class="desc-author">{{postObj.author}}</text>
+    <text class="desc-aside">发表于</text>
+    <text class="desc-time">{{postObj.dateTime}}</text>
+  </view>
+  <view class="title">{{postObj.title}}</view>
+  <view class="oper-wrap">
+    <image class="oper-icon" src="/images/icon/collection.png"></image>
+    <image class="oper-icon" src="/images/icon/share.png"></image>
+    <view class="line"></view>
+  </view>
+  <view class="content">{{postObj.detail}}</view>
+</view>
